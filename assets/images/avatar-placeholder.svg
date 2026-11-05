@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="avatarGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#94a3b8" />
+      <stop offset="100%" stop-color="#64748b" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bgGrad)" />
+  <circle cx="200" cy="150" r="65" fill="url(#avatarGrad)" />
+  <path d="M90 350 C90 260, 140 240, 200 240 C260 240, 310 260, 310 350 Z" fill="url(#avatarGrad)" />
+  <circle cx="200" cy="200" r="185" fill="none" stroke="#3b82f6" stroke-width="4" stroke-opacity="0.3" stroke-dasharray="8 6" />
+  <text x="200" y="380" text-anchor="middle" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500">
+    Replace with your professional photo
+  </text>
+</svg>
+

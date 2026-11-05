@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <rect width="800" height="500" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <path d="M0 8 C0 3.58 3.58 0 8 0 L792 0 C796.42 0 800 3.58 800 8 L800 42 L0 42 Z" fill="#0f172a"/>
+  <circle cx="24" cy="21" r="6" fill="#ef4444" />
+  <circle cx="44" cy="21" r="6" fill="#f59e0b" />
+  <circle cx="64" cy="21" r="6" fill="#10b981" />
+  <text x="400" y="26" text-anchor="middle" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500">System Screenshot 2 &bull; Place your project screenshot here</text>
+  <rect x="30" y="65" width="740" height="400" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="6 6"/>
+  <g transform="translate(400, 230)" text-anchor="middle">
+    <circle cx="0" cy="-40" r="32" fill="#eff6ff"/>
+    <path d="M-12 -38 L-4 -46 L12 -30 L4 -22 Z" fill="#3b82f6"/>
+    <text x="0" y="15" fill="#1e293b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="600">Featured System / Project Screenshot</text>
+    <text x="0" y="38" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">Replace assets/images/projects/project2.png with your real screenshot</text>
+    <rect x="-90" y="55" width="180" height="30" rx="15" fill="#2563eb" opacity="0.1"/>
+    <text x="0" y="75" fill="#2563eb" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">🔍 Click to enlarge preview</text>
+  </g>
+</svg>
+
