@@ -15,17 +15,26 @@
   --color-bg-alt: #fcfcfd;
 
   /* Typography / Text Colors */
-  --color-navy-dark: #0f172a;       /* Primary headings & dark elements */
-  --color-navy-medium: #1e293b;     /* Body headings & strong text */
-  --color-navy-light: #334155;      /* Primary body text */
-  --color-muted: #64748b;           /* Subtitles, secondary text */
-  --color-subtle: #94a3b8;          /* Placeholders, hints, borders */
+  --color-navy-dark: #0f172a;
+  /* Primary headings & dark elements */
+  --color-navy-medium: #1e293b;
+  /* Body headings & strong text */
+  --color-navy-light: #334155;
+  /* Primary body text */
+  --color-muted: #64748b;
+  /* Subtitles, secondary text */
+  --color-subtle: #94a3b8;
+  /* Placeholders, hints, borders */
 
   /* Accents */
-  --color-accent-blue: #2563eb;     /* Primary brand / link blue */
-  --color-accent-hover: #1d4ed8;    /* Darker blue for active/hover states */
-  --color-accent-soft: #eff6ff;     /* Soft blue background tint */
-  --color-accent-border: #bfdbfe;   /* Soft blue border */
+  --color-accent-blue: #2563eb;
+  /* Primary brand / link blue */
+  --color-accent-hover: #1d4ed8;
+  /* Darker blue for active/hover states */
+  --color-accent-soft: #eff6ff;
+  /* Soft blue background tint */
+  --color-accent-border: #bfdbfe;
+  /* Soft blue border */
 
   /* Success & Functional */
   --color-success: #10b981;
@@ -59,7 +68,9 @@
 /* --------------------------------------------------------------------------
    Reset & Base Styles
    -------------------------------------------------------------------------- */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -99,7 +110,9 @@ a:hover {
   color: var(--color-accent-hover);
 }
 
-button, input, textarea {
+button,
+input,
+textarea {
   font-family: inherit;
   font-size: inherit;
 }
@@ -343,23 +356,24 @@ ul {
   gap: 1.35rem;
 }
 
-.hero-header-meta {
+.hero-name-group {
   display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 1rem;
+  flex-direction: column;
+  gap: 0.35rem;
+  margin-top: 0.25rem;
 }
 
 .hero-intro-label {
-  font-size: 0.8125rem;
+  font-size: 0.9375rem;
   font-weight: 700;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--color-accent-blue);
-  background-color: var(--color-accent-soft);
-  border: 1px solid var(--color-accent-border);
-  padding: 0.3rem 0.75rem;
-  border-radius: var(--radius-sm);
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  line-height: 1.2;
 }
 
 .hero-status-pill {
@@ -1477,7 +1491,8 @@ ul {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .project-card, .project-card.reversed {
+  .project-card,
+  .project-card.reversed {
     grid-template-columns: 1fr;
   }
 
@@ -1589,7 +1604,16 @@ ul {
    Print Stylesheet (For printing or saving clean CV to PDF)
    -------------------------------------------------------------------------- */
 @media print {
-  .navbar, .hero-actions, .mobile-toggle, .lightbox-modal, .back-to-top, .toast-notice, .contact-form-card, .overlay-pill, .footer {
+
+  .navbar,
+  .hero-actions,
+  .mobile-toggle,
+  .lightbox-modal,
+  .back-to-top,
+  .toast-notice,
+  .contact-form-card,
+  .overlay-pill,
+  .footer {
     display: none !important;
   }
 
@@ -1618,7 +1642,10 @@ ul {
     background: none !important;
   }
 
-  .project-card, .timeline-card, .resume-card, .skill-category-card {
+  .project-card,
+  .timeline-card,
+  .resume-card,
+  .skill-category-card {
     box-shadow: none !important;
     border: 1px solid #ccc !important;
     page-break-inside: avoid;
@@ -1629,4 +1656,3 @@ ul {
     text-decoration: underline;
   }
 }
-
